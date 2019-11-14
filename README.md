@@ -1,11 +1,9 @@
 # Bloom
 ## Solving Charlotte's economic mobility crisis
-## App On Heroku
-
-    $ https://lifesportshackathon.herokuapp.com/
 
 
-# LifeSports Hackathon App
+
+# Bloom Hackathon App
 
 An database administration website built in react using API's to connect to a Mongo database.
 
