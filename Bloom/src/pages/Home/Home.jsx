@@ -38,7 +38,7 @@ const Home = () =>{
             values.tag = tags
             axios.post('/mentor/add', values)
             setPopupSignUp(false)
-            alert("We will being contact you soon to find out if you are eligible for to be a mentor.")
+            alert("We will be contacting you soon to verify your eligibility to be a mentor.")
         } else if(isBloomer === "active"){
             values.tag = tags
             axios.post('/student/add', values)
