@@ -1,5 +1,5 @@
 {
-  "name": "bloom",
+  "name": "Bloom",
   "version": "1.0.0",
   "description": "Solving Charlotte's economic mobility problem one step at a time",
   "main": "index.js",
@@ -7,10 +7,10 @@
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "node index.js",
     "start:dev": "concurrently \"nodemon index.js --ignore 'client/*'\" \"npm run client\"",
-    "client": "cd bloom && npm run start",
-    "install": "cd bloom && npm install",
-    "build": "cd bloom && npm run build",
-    "heroku-postbuild": "cd bloom && npm run build"
+    "client": "cd Bloom && npm run start",
+    "install": "cd Bloom && npm install",
+    "build": "cd Bloom && npm run build",
+    "heroku-postbuild": "cd Bloom && npm run build"
   },
   "repository": {
     "type": "git",
