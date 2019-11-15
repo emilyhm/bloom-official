@@ -6,6 +6,7 @@
 # Bloom Hackathon App
 
 An database administration website built in react using API's to connect to a Mongo database.
+View the promotional video! -> https://youtu.be/pGKzyE9HDs8 
 
 ## Requirements
 
